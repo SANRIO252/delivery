@@ -23,6 +23,7 @@ body{
 
 }
 
+
 p{
     font-size: 14px;
 
@@ -45,7 +46,21 @@ p{
     padding: 15px 420px 15px 60px;
     top: 0;
     z-index: 2;
+    padding-left: 340px;
+    object-fit: cover;
 }
+
+.ri-shopping-bag-line{
+    right: 12px;
+    font-size: 120px;
+    position: absolute;
+    color: red;
+    cursor: pointer;
+    position: fixed;
+    object-fit: cover;
+    
+}
+
 
 .sidebar{
     position: fixed;
@@ -84,15 +99,15 @@ p{
 .dashboard{
     height: 100%;
     width: 100%;
-    padding-right: 360px;
+    padding-right: 50px;
     padding-left: 60px;
     margin-top: 50px;
 }
 
 .dashboard-banner{
     width: 100%;
-    height: 300px;
-    position: relative;
+    height: 150px;
+    position: fixed;
     margin-top: 4rem;
     padding: 1rem;
     border-radius: 30px;
@@ -101,17 +116,17 @@ p{
 
 .dashboard-baner > img {
     width: 100%;
-    height: 350px;
+    height: 250px;
     object-fit: cover;
     border-radius: 30px;
 }
 .img{
-    height: 470px;
+    height: 250px;
 }
 .banner-promo{
     position: absolute;
     color: var(--maincolor);
-    top: 25%;
+    top: 15%;
     left: 10%;
     font-weight: 800;
     
@@ -164,7 +179,7 @@ p{
 
 .card-image{
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -176,6 +191,18 @@ p{
 .card-detail >h4 >span {
     float: right;
 }
+
+/* .card-detail>span{
+    float: right;
+    left: 12px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: #61666b;
+}
+
+.card-detail>span:hover{
+    box-shadow: orange;
+} */
 
 .card-time{
     color: var(--darkgray);
@@ -207,3 +234,4 @@ p{
     font-size: 0.8rem;
     color: var(--darkgray);
 }
+
